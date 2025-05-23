@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+watermark
+vaderSentiment
+imbalanced-learn
+nltk
+datasets
+scikit-learn
+wordcloud
+notebook
+xgboost
+lightgbm
+catboost
