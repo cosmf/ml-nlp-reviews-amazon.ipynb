@@ -12,11 +12,11 @@ This project provides a Dockerized environment for performing comprehensive sent
   **Build the Docker image:**
     Open a terminal in the project's root directory and run:
     ```bash
-    docker build --no-cache -t aad_proiect_env .
+    docker build --no-cache -t amazon_review_env .
     ```
   **Run the Docker container:**
     ```bash
-    docker run -p 8888:8888 -v "${PWD}:/app" --name jupyter_aad aad_proiect_env
+    docker run -p 8888:8888 -v "${PWD}:/app" --name jupyter_amazon amazon_review_env
     ```
     *(Use `"%CD%"` instead of `"${PWD}"` if in Windows Command Prompt/PowerShell for the volume mount)*
 
